@@ -1,0 +1,317 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo > img {
+  width: 50px;
+}
+
+/* Media Query for Mobile Devices */ 
+@media (max-width: 480px) { 
+                .logo{
+                  display:flex;
+                  justify-content:center;
+                }
+                h1,h2{
+                  display:flex;
+                  justify-content:center;
+                }
+                .menu{
+                  display:none;
+                }
+                .hamburger{
+                  display:flex;
+                  justify-content:flex-end;
+                  background-color:gray;
+                  padding:5px;
+                  margin:5px;
+                  color:white;
+                }
+                .product{
+                  border: 1px solid black;
+                  padding:5px;
+                  margin:5px;
+                }
+                .fas{
+                  display:flex;
+                  justify-content:center;
+                }
+                p{
+                  display:flex;
+                  justify-content:center;
+                  text-align: center;
+                }
+                .social{
+                  display:flex;
+                  flex-flow:row wrap;
+                  justify-content:space-around;
+                }
+                .social_icon{
+                  display:flex;
+                  flex-wrap:wrap;
+                }
+} 
+          
+/* Media Query for low resolution  Tablets, Ipads */ 
+@media (min-width: 481px) and (max-width: 767px) { 
+          header{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:space-evenly;
+            margin:5px;
+            align-items:center;
+          }
+
+          h2{
+            display:flex;
+            justify-content:center;
+          }
+          .menu{
+            display:none;
+          }
+          .hamburger{
+            display:flex;
+            justify-content:flex-end;
+            background-color:gray;
+            padding:5px;
+            margin:5px;
+            color:white;
+          }
+          .product{
+            border: 1px solid black;
+            padding:5px;
+            margin-left:35px;
+            margin-right:35px;
+            margin-bottom:5px;
+          }
+          .fas{
+            display:flex;
+            justify-content:center;
+          }
+          p{
+            display:flex;
+            justify-content:center;
+            text-align: center;
+          }
+          .social{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:space-around;
+          }
+          .social_icon{
+            display:flex;
+            flex-wrap:wrap;
+          }
+} 
+          
+/* Media Query for Tablets Ipads portrait mode */ 
+ @media (min-width: 768px) and (max-width: 1024px){ 
+          header{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:space-evenly;
+            margin:5px;
+            align-items:center;
+          }
+
+          h2{
+            display:flex;
+            justify-content:center;
+          }
+          .menu{
+            display:none;
+          }
+          .hamburger{
+            display:flex;
+            justify-content:flex-end;
+            background-color:gray;
+            padding:5px;
+            margin:5px;
+            color:white;
+          }
+          .product{
+            border: 1px solid black;
+            padding:5px;
+            margin-left:35px;
+            margin-right:35px;
+            margin-bottom:5px;
+          }
+          .fas{
+            display:flex;
+            justify-content:center;
+          }
+          p{
+            display:flex;
+            justify-content:center;
+            text-align: center;
+          }
+          .social{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:space-around;
+          }
+          .social_icon{
+            display:flex;
+            flex-wrap:wrap;
+          }
+} 
+          
+        /* Media Query for Laptops and Desktops */ 
+@media (min-width: 1025px) and (max-width: 1280px){ 
+            header{
+              display:flex;
+              flex-wrap:wrap;
+              margin:5px;
+              align-items:center;
+              justify-content:space-evenly;
+              max-width: 1100px;
+            }
+
+            .hamburger{
+              display:none;
+            }
+
+            .navbar{
+              display:flex;
+              justify-content:flex-end;
+              background-color:gray;
+              padding:5px;
+              margin:5px;
+            }
+
+            .menu{
+              display:flex;
+              flex-flow:row;
+              justify-content:space-between;
+              list-style:none;
+              color:white;
+            }
+
+            li{
+              padding:0 50px 0 0;
+            }
+
+            main{
+                display:flex;
+                flex-direction:row;
+            }
+
+            .product{
+              border: 1px solid black;
+              padding:5px;
+              margin-bottom:15px;
+              margin-top:15px;
+              margin-left:20px;
+              margin-right:20px;
+            }
+            
+            h2{
+              display:flex;
+              justify-content:center;
+            }
+            
+            .fas{
+              display:flex;
+              justify-content:center;
+            }
+            
+            p{
+              display:flex;
+              justify-content:center;
+              text-align: flex-start;
+            }
+
+            .social{
+              display:flex;
+              flex-flow:row;
+              justify-content:space-around;
+              align-items:center;
+            }
+            .social_icon{
+              display:flex;
+              flex-wrap:wrap;
+            }
+} 
+          
+        /* Media Query for Large screens */ 
+@media (min-width: 1281px) { 
+            header{
+              display:flex;
+              flex-wrap:wrap;
+              margin:5px;
+              align-items:center;
+              justify-content:space-evenly;
+              max-width: 1100px;
+            }
+
+            .hamburger{
+              display:none;
+            }
+
+            .navbar{
+              display:flex;
+              justify-content:flex-end;
+              background-color:gray;
+              padding:5px;
+              margin:5px;
+            }
+
+            .menu{
+              display:flex;
+              flex-flow:row;
+              justify-content:space-between;
+              list-style:none;
+              color:white;
+            }
+
+            li{
+              padding:0 50px 0 0;
+            }
+
+            main{
+                display:flex;
+                flex-direction:row;
+            }
+
+            .product{
+              border: 1px solid black;
+              padding:5px;
+              margin-bottom:15px;
+              margin-top:15px;
+              margin-left:20px;
+              margin-right:20px;
+            }
+            
+            h2{
+              display:flex;
+              justify-content:center;
+            }
+            
+            .fas{
+              display:flex;
+              justify-content:center;
+            }
+            
+            p{
+              display:flex;
+              justify-content:center;
+              text-align: flex-start;
+            }
+
+            .social{
+              display:flex;
+              flex-flow:row;
+              justify-content:space-around;
+              align-items:center;
+            }
+            .social_icon{
+              display:flex;
+              flex-wrap:wrap;
+            }
+} 
